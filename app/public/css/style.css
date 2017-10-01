@@ -1,0 +1,43 @@
+body{
+  background: url(../images/Central_Perk.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.jumbo-one {
+  background: url(../images/friends.jpg);
+  background-size: 100%;
+  height: 500px;
+  width: 100%;
+}
+
+.jumbo-two {
+  margin-top: 50px !important;
+  text-align: center;
+  background-color: rgba(200,200,200,.9) !important;
+}
+
+.lower-container {
+  margin-bottom: 10%;
+}
+
+.friendslogo{
+  position: relative;
+  top: -5px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Nothing You Could Do', cursive;
+  color: #000000 !important;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.body-container{
+  background-color: rgba(200,200,200,.9) !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
