@@ -12,11 +12,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
+// Static directory to be served
+app.use(express.static("app/public"));
+
 //Pulling in routes defined under routing folder
 require("./app/routing/htmlRoutes.js")(app);
 require("./app/routing/apiRoutes.js")(app);
-
-app.use(express.static("app"));
 
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
